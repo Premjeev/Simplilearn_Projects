@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <display-name>Practiseproject_phase2_L4</display-name>
+  <display-name>Practiseproject_phase2_L3</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
@@ -11,22 +11,42 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>App</display-name>
-    <servlet-name>App</servlet-name>
-    <servlet-class>App</servlet-class>
+    <display-name>Readproduct</display-name>
+    <servlet-name>Readproduct</servlet-name>
+    <servlet-class>com.servlets.Readproduct</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>App</servlet-name>
-    <url-pattern>/App</url-pattern>
+    <servlet-name>Readproduct</servlet-name>
+    <url-pattern>/Readproduct</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>App1</display-name>
-    <servlet-name>App1</servlet-name>
-    <servlet-class>App1</servlet-class>
+    <display-name>AddProduct</display-name>
+    <servlet-name>AddProduct</servlet-name>
+    <servlet-class>AddProduct</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>App1</servlet-name>
-    <url-pattern>/App1</url-pattern>
+    <servlet-name>AddProduct</servlet-name>
+    <url-pattern>/AddProduct</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EProduct</display-name>
+    <servlet-name>EProduct</servlet-name>
+    <servlet-class>com.entity.EProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EProduct</servlet-name>
+    <url-pattern>/EProduct</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>HibernateUtil</display-name>
+    <servlet-name>HibernateUtil</servlet-name>
+    <servlet-class>com.util.HibernateUtil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HibernateUtil</servlet-name>
+    <url-pattern>/HibernateUtil</url-pattern>
   </servlet-mapping>
 </web-app>

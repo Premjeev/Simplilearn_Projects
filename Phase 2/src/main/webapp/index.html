@@ -1,24 +1,39 @@
-<!DOCTYPE html>
+<!DOCTYPEhtml>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Login Page</title>
+<metacharset="ISO-8859-1">
+<title>Insert title here</title>
 </head>
 <body>
-<body>
-<h1>Product ID</h1>
-<hr>
-<form action="./Login">
-<table>
-	<tr>
-		<td>Enter the p_ID:</td>
-		<td><input type="text" name="p_ID"></td>
-	</tr>
-	<tr>
-		<td colspan="2"><input type="submit" value="Search"></td>
-	</tr>
+<h1>Welcome to Hibernate CRUD application</h1>
 
-</table>
+	<ahref="read-product">Read Product</a>
+	<br/>
+	<ahref="add-product">Add Product</a>
+
+
+
+</body>
+</html>
+
+//add-product.html
+<html>
+<head>
+<metacharset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> Add Product</h1>
+
+<formmethod="post"action="add-product">
+	<fieldset>
+		<legend>Add Product form</legend>
+		       Product Name: <inputtype="text"name="name"id="name"/><br/><br/>
+		       Product Price: <inputtype="text"name="price"id="price"/><br/><br/>
+		<inputtype="submit"value="Add Product">
+	</fieldset>
 </form>
+
+
 </body>
 </html>
