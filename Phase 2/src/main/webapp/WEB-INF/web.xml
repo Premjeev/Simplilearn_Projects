@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <display-name>Practiseproject_phase2_L2</display-name>
+  <display-name>Practiseproject_phase2_L4</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
@@ -11,12 +11,22 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>Login</display-name>
-    <servlet-name>Login</servlet-name>
-    <servlet-class>Login</servlet-class>
+    <display-name>App</display-name>
+    <servlet-name>App</servlet-name>
+    <servlet-class>App</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Login</servlet-name>
-    <url-pattern>/Login</url-pattern>
+    <servlet-name>App</servlet-name>
+    <url-pattern>/App</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>App1</display-name>
+    <servlet-name>App1</servlet-name>
+    <servlet-class>App1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>App1</servlet-name>
+    <url-pattern>/App1</url-pattern>
   </servlet-mapping>
 </web-app>
